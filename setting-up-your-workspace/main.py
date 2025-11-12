@@ -1,0 +1,1 @@
+print("I'm ready to have some fun with Python! I've so got this, and Skillcrush has my back. Slay all day! ")
