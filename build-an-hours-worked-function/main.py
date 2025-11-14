@@ -19,4 +19,6 @@ def calculate_monthly_pay(wk_1_hours, wk_2_hours, wk_3_hours, wk_4_hours, pay_pe
     week4_pay = calculate_pay(wk_4_hours, pay_per_hour)
     return week1_pay + week2_pay + week3_pay + week4_pay
 
+# Calculate monthly pay for a freelancer given their weekly hours and pay rate
+# First four values are hour worked, the last value is pay per hour
 print(calculate_monthly_pay(40, 50, 35, 40, 50))
