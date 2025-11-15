@@ -45,5 +45,20 @@ for _ in range(5):
     tortuga_turtle.forward(110)
     tortuga_turtle.right(216)
 
+# Clear the drawing
+tortuga_turtle.clear()
+
+# Bonus: Draw a circle
+tortuga_turtle.pencolor("orange")
+tortuga_turtle.circle(100)
+
+# Clear the drawing
+tortuga_turtle.clear()
+
+# Bonus: Draw a triangle
+
+
+
+
 # Leave the canvas open until closed by the user
 screen.exitonclick()
